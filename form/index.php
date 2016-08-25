@@ -1,0 +1,7 @@
+<html>
+<?
+	function main{
+		
+	}
+?>
+</html>
