@@ -1,4 +1,7 @@
 <?
+
+require("./fachada/fachada_produto.php");
+
   class form_produto(){	
 	
 	
@@ -12,7 +15,9 @@
 	    <td> Nome do produto: <input type="text" id="nomeProduto" name="nome" value=""> 
 		 Descricao: <input type="text" id="nomeProduto" name="descricao" value=""> </td>
 	    <td> Preco: <input type="text" id="nomeProduto" name="preco" value=""> </td>
-		
+	    
+	    
+		//Criar opção para anexar imagem
 	        <input type="submit" name="submit" value="submit">
 	  </form>
 	  
