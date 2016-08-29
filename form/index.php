@@ -1,7 +1,3 @@
 <html>
-<?
-	function main{
-		
-	}
-?>
+
 </html>
