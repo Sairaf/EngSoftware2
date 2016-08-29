@@ -4,14 +4,18 @@
 	
 	function principal(){
 		
-	?>
-	  <form action="?pagina=form_produto method="post" name="form1">
-		Nome do produto: <input type="text" id="nomeProduto" name="nomeProduto">
-		Descricao: <input type="text" id="nomeProduto" name="nomeProduto">
-		Preco: <input type="text" id="nomeProduto" name="nomeProduto">	
-
-	   <input type="submit" name="teste">
+	//$edicao = "";	
+		
+	?>  
+	   
+	  <form action="?action_formProduto.php method="post" name="form1">
+	    <td> Nome do produto: <input type="text" id="nomeProduto" name="nome" value=""> 
+		 Descricao: <input type="text" id="nomeProduto" name="descricao" value=""> </td>
+	    <td> Preco: <input type="text" id="nomeProduto" name="preco" value=""> </td>
+		
+	        <input type="submit" name="submit" value="submit">
 	  </form>
+	  
 	<?
 	  }
   }
