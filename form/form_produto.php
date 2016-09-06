@@ -1,5 +1,5 @@
 <?
-require("./fachada/fachada_produto.php");
+require("./fachada/fachada.php");
 
   class form_produto(){	
 	var $perfilLogado;
