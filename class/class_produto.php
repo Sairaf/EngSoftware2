@@ -1,15 +1,21 @@
 <?
 	class produto{
 		var $id;
-		var $nomeP;		
+		var $nomeP;
+		var $fabricante;
 		var $preco;
 		var $descricao;
+		var $dataRegistro;
+		var $tipoProduto;
 		
-		function produto($a,$b,$c,$d){
+		function produto($a,$b,$c,$d,$e,$f,$g){
 			$id = $a;
 			$nomeP = $b;
 			$preco = $c;
-			$desricao = $d;
+			$descricao = $d;
+			$fabricante = $e;
+			$dataRegistro = $f;
+			$tipoProduto = $g;
 		}
 		
 		function setId($a){
@@ -28,6 +34,15 @@
 			$descricao = $a;
 		}
 		
+		
+		function setFabricante($a){
+			$fabricante = $a;
+		}
+		
+		function setData($a){
+			$data = $a;
+		}
+		
 		function getId(){
 			return $id;
 		}
@@ -42,5 +57,13 @@
 		
 		function getPreco(){
 			return $preco;
+		}
+		
+		function getrFabricante(){
+			return $fabricante;
+		}
+		
+		function getData(){
+			return $data;
 		}
 	}
