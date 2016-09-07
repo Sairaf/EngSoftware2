@@ -9,8 +9,8 @@ require_once('./fachada/conexao_bd.php');
 			$conexao = new conexaoBD();
 		}
 		
-		function produto($a,$b,$c,$d){
-			$Produto = new produto($a,$b,$c,$d);
+		function produto($a,$b,$c,$d,$e,$f){
+			$Produto = new produto($a,$b,$c,$d,$e,$f);
 			return $Produto;
 		}
 		
