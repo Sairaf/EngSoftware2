@@ -1,6 +1,6 @@
-require_once('./class/class_produto.php');
+require_once('./class/class_supermercado.php');
 require_once('./fachada/conexao_bd.php');
-	class fachada_produto{
+	class fachada_supermercado{
 		
 		var $conexao;
 		
