@@ -10,6 +10,25 @@ require("./fachada/fachada.php");
 	   return $perfilLogado;
 	}
 	
+	function listarProdutos($nome){
+		$fachada = new fachada();
+		$listaProdutos = $fachada->listaProdutosNome($nome);
+		if($listaProdutos){
+		?>
+		<html>
+		<p>Pesquisa de produtos</p>
+				
+			
+		</html>
+		<?
+		}else{
+			?>
+			<p> ERROR</p>
+			<?
+			
+		}
+	}
+	
 	function infoProduto($id){
 		$fachada = new Fachada();
 		$prod = $fachada->getProdutoId($id);
