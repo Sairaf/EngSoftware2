@@ -1,0 +1,28 @@
+<?
+  class usuario{
+    private var $nome;
+    private var $idade;
+    
+    function usuario($a,$b){
+      $nome = $a
+      $idade = $b;
+    }
+    
+    function setUsuario($a){
+      $nome =$a;
+    }
+    
+    function setIdade($a){
+      $idade = $a;    
+    }
+    
+    function getUsuario(){
+      return $nome;
+    }
+    
+    function getIdade(){
+      return $idade;
+    }
+    
+  }
+?>
