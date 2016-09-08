@@ -1,3 +1,4 @@
+<?
 require_once('./class/class_supermercado.php');
 require_once('./fachada/conexao_bd.php');
 	class fachada_supermercado{
@@ -14,3 +15,4 @@ require_once('./fachada/conexao_bd.php');
 		}
 		
 	}
+?>
